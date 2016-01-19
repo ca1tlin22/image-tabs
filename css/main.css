@@ -11,8 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  margin: 0em;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -23,11 +23,11 @@ html {
   position: relative;
 }
 
-.zero , .one , .two , .three , .four{
+.zero, .one, .two, .three, .four {
   position: absolute;
 }
 
-.zero:target , .one:target , .two:target , .three:target , .four:target {
+.zero:target, .one:target, .two:target, .three:target, .four:target {
   z-index: 5;
 }
 
@@ -39,11 +39,11 @@ html {
   text-align: center;
 }
 
-.bubbles a:hover{
+.bubbles a:hover {
   background-color: #444;
 }
 
-.bubbles a{
+.bubbles a {
   width: 15px;
   height: 15px;
   border: 3px solid #444;

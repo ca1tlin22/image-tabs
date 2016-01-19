@@ -26,3 +26,25 @@ html {
 .zero , .one , .two , .three , .four{
   position: absolute;
 }
+
+.group {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.bubbles li {
+  width: 15px;
+  height: 15px;
+  border: 3px solid #444;
+  border-radius: 50%;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.all {
+  height: 350px;
+  width: 570px;
+  position: relative;
+}

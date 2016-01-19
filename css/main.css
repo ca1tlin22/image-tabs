@@ -27,6 +27,10 @@ html {
   position: absolute;
 }
 
+.zero:target , .one:target , .two:target , .three:target , .four:target {
+  z-index: 5;
+}
+
 .group {
   position: absolute;
   bottom: 0;

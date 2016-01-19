@@ -32,9 +32,14 @@ html {
   bottom: 0;
   width: 100%;
   padding: 0;
+  text-align: center;
 }
 
-.bubbles li {
+.bubbles a:hover{
+  background-color: #444;
+}
+
+.bubbles a{
   width: 15px;
   height: 15px;
   border: 3px solid #444;
